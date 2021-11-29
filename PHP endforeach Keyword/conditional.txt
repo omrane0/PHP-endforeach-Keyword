@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a = 4;
+if($a < 5):
+  echo "Less than five";
+elseif($a < 10):
+  echo "More than five but less than ten";
+else:
+  echo "Greater than ten";
+endif;
+?>
+
+</body>
+</html>
+
+
+
+
+
+Less than five
